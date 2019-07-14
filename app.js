@@ -3,7 +3,6 @@ const path = require('path')
 const hbs = require('hbs')
 
 const indexRouter = require('./routes/index');
-const calcRouter = require('./routes/calc');
 
 const app = express();
 
