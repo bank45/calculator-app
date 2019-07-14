@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const keyboard = document.getElementsByClassName("keyboard");
     const monitor = document.getElementsByClassName('monitor')
-    console.log(keyboard[0].children)
+
     let memory = 0,
         act = '',
         res = 0

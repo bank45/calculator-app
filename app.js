@@ -1,5 +1,7 @@
 const express = require('express')
 const app = express()
+const router = express.Router()
+
 
 app.listen(3000, function(){
     console.log('app listening on port 3000')
@@ -7,8 +9,15 @@ app.listen(3000, function(){
 
 app.use(express.static(__dirname + '/public'))
 
-app.get('/', function(req, res){
-    res.download('/')
+
+router.get('/', function(req, res){
+    res.send('/')
 })
 
+// router.get('/calculator', function(req,res){
+//     console.log("app.get('/calculator)")
+//    // res.render('calculator')
+// })
+
+app.use('/', router)
 
