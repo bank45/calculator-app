@@ -13,7 +13,7 @@ header{
 .monitor {
     width: 230px;
     height: 25px;
-    border: 5px solid rgb(250, 79, 0);
+    border: 5px solid rgb(0, 68, 255);
     font-size: large;
     text-align: right;
 }
@@ -37,7 +37,7 @@ header{
     background-color: aqua;
     font-size: large;
     color: blue;
-    border: 5px solid rgb(250, 79, 0);
+    border: 5px solid rgb(0, 46, 250);
     border-radius: 5px;
     text-align: center;
 }
