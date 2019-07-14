@@ -1,21 +1,36 @@
 body {
-    background-color: rgb(206, 200, 200);
+    background-color: rgb(78, 78, 77);
 }
-header{
+
+header {
     text-align: center;
+    background-color: rgb(197, 134, 255);
+    color: aliceblue;
+}
+
+a {
+    font-size: larger;
+    text-decoration: none;
+}
+
+.article{
+    text-align: center;
+    max-width: 550px;
 }
 
 .container {
-    max-width: 450px;
+    max-width: 250px;
     margin: 20px;
 }
 
 .monitor {
-    width: 230px;
+    width: auto;
     height: 25px;
-    border: 5px solid rgb(0, 68, 255);
-    font-size: large;
+    border: 2px solid rgb(0, 68, 255);
+    font-size: larger;
     text-align: right;
+    color: rgb(5, 255, 5);
+    background-color: black;
 }
 
 
@@ -32,12 +47,11 @@ header{
 }
 
 .btn {
-    width: 50px;
-
-    background-color: aqua;
-    font-size: large;
+    width: 3em;
+    background-color: rgb(236, 236, 223);
+    font-size: larger;
     color: blue;
-    border: 5px solid rgb(0, 46, 250);
+    border: 2px solid rgb(250, 142, 0);
     border-radius: 5px;
     text-align: center;
 }
