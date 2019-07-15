@@ -1,21 +1,31 @@
 body {
-    background-color: rgb(78, 78, 77);
+    background-color: rgb(47, 47, 47);
+    max-width: 950px;
 }
 
 header {
+    height: 50px;
     text-align: center;
     background-color: rgb(197, 134, 255);
     color: aliceblue;
 }
 
+button {
+    width: 100px;
+}
+
 a {
     font-size: larger;
     text-decoration: none;
+    color: blue;
 }
 
-.article{
+.article {
     text-align: center;
+    text-align: justify;
     max-width: 550px;
+    color: aliceblue;
+    font-size: large;
 }
 
 .container {
@@ -54,4 +64,8 @@ a {
     border: 2px solid rgb(250, 142, 0);
     border-radius: 5px;
     text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(201, 160, 240);
 }
